@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+html{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 170%;
+    font-size: 1rem;
+    color: #0f0f0ecc;
+    /* cursor: url(https://cdn.prod.website-files.com/65d3a3d06680835353585bbc/65f5dc8cc655e0d3932353b4_cursor-self.svg),auto; */
+}
+a{
+    color: inherit;
+    font-weight: 500;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 1.6rem;
+}
+h3{
+    font-size: 1.4rem;
+}
+h4, h5, h6{
+    font-size: 1.2rem;
+}
+p{
+    margin-bottom: 1rem;
+}
+figure{
+    margin-bottom: 1rem;
+}
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid #0f0f0e1a;
+}
+header p{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+article {
+    padding: 40px 10px;
+    width: 100%;
+    a{
+        background-color: #b3ebf2;
+        padding: 1px 10px;
+        border-radius: 2rem;
+        display: inline-flex;
+        text-decoration: none;
+    }
+}
+#searchInput {
+    padding: 10px;
+    border: 1px solid #0f0f0e1a;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    font-size: 1rem;
+}
+.site-container{
+    width: calc(100% - 10px);
+    margin: 5px;
+}
+.site-border{
+    border-radius:10px;
+    box-shadow: 0 9px 20px #00000008,0 37px 37px #00000008,0 83px 50px #00000005,0 147px 59px #0000,0 229px 64px #0000;
+    border: 1px solid #0f0f0e1a;
+}
+.site-padding{
+    padding: 50px 10px;
+}
+.text-center{
+    text-align: center;
+}
+.mx-800{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.background-white{
+    background-color: #fff;;
+}
+.site-logo{
+    padding-top: 30px;
+    letter-spacing: 4px;
+    margin-bottom: 24px;
+}
+@media only screen and (min-width: 768px) {
+    .site-container{
+        width: calc(100% - 48px);
+        margin: 24px;
+    }
+    .site-padding{
+        padding: 50px 20px;
+    }
+    article {
+        padding: 40px;
+        width: calc(50% - 12px);
+    }
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+}
+footer{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+button:hover{
+    cursor: pointer;
+}
