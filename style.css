@@ -65,7 +65,11 @@ header p{
     margin-right: auto;
 }
 
-
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
 
 article {
     padding: 40px 10px;
@@ -84,7 +88,7 @@ article {
     border-radius: 10px;
     width: 100%;
     max-width: 600px;
-    font-size: 1rem;
+    font-size: ;
 }
 .site-container{
     width: calc(100% - 10px);
@@ -127,8 +131,6 @@ article {
         width: calc(50% - 12px);
     }
     main {
-        display: flex;
-        flex-wrap: wrap;
         gap: 24px;
     }
 }
